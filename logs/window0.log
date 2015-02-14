@@ -1,0 +1,649 @@
+Invalid behavior: :lt.objs.sidebar.command/update-lisError: ENOENT, no such file or directory '/usr/share/hunspell/'
+    at Object.fs.readdirSync (fs.js:654:18)
+    at Object.OverlayManager.getLanguages (/home/paul/.config/LightTable/plugins/Spelling/js/overlays.js:79:20)
+    at eval (/home/paul/.config/LightTable/plugins/Spelling/spelling_compiled.js:106:253)
+    at lt.objs.sidebar.command.__GT_items (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:25514:339)
+    at lt.objs.sidebar.command.indexed_results (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:25527:86)
+    at Function.lt.objs.sidebar.command.__BEH__update_lis (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:25486:177)
+    at c (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:6196:14)
+    at a (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:6236:18)
+    at c (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:20439:76)
+    at a (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:20473:18)Invalid behavior: :lt.objs.style/remove-themeError: No protocol method IDeref.-deref defined for type null: 
+    at Error (<anonymous>)
+    at cljs.core.missing_protocol (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:1460:10)
+    at cljs.core._deref (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:2181:38)
+    at cljs.core.deref (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:12879:27)
+    at lt.object.has_tag_QMARK_ (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:20816:113)
+    at Function.lt.objs.style.__BEH__remove_theme (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:30141:52)
+    at c (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:6196:14)
+    at a (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:6236:18)
+    at c (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:20439:76)
+    at a (file:///opt/LightTable/core/node_modules/lighttable/bootstrap.js:20473:18)meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec[887]:  Error logging in with token: Error: You've been logged out by the server. Please log in again. [403]
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught SyntaxError: Unexpected token Y: http://localhost:5432/packages/ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2087]: xo.onfinish
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [220]: EventEmitter.emit
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [917]: that.xhr.onreadystatechange
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught SyntaxError: Unexpected token Y: http://localhost:5432/packages/ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2087]: xo.onfinish
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [220]: EventEmitter.emit
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [917]: that.xhr.onreadystatechange
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+modific_compiled.js[380]:  Error executing diff command: error: short read No such file or directory
+error: packages/identity-service/test/server/utils.js: failed to insert into database
+fatal: cannot hash packages/identity-service/test/server/utils.js
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=sdevr37wrg
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=etgtync017
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=dbnp1mp5u0
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=moiksi_i3v
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=v5fugezm9v
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=w7fdfbv99g
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=k1izw6sit6
+meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec[887]:  Error logging in with token: Error: You've been logged out by the server. Please log in again. [403]
+ERROR: Uncaught ReferenceError: process is not defined: http://localhost:5432/packages/richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [31]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [39]: anonymous
+       richsilv_pikaday.js?bfa3a11f764cdbc12ba0f4c9e3c77be5aed4cecf [46]: anonymous
+ERROR: Uncaught Error: There are multiple templates named 'timestamp'. Each template needs a unique name.: http://localhost:5432/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0
+       templating.js?599ba307216da826d8b335332ebcc9a497a369a0 [59]: Template.__checkName
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [225]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [235]: anonymous
+       local-test_onist_global-helpers.js?f87ecaee7fd5bf9324a46f56f10416195ef2704e [476]: anonymous
+ERROR: Uncaught ReferenceError: createCommitMethods is not defined: http://localhost:5432/packages/local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [57]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [94]: anonymous
+       local-test_onist_identity-service.js?93972bac36e5f83fe321c4e8ef2911e0a6b2e6e5 [193]: anonymous
+ERROR: Error: Method not found [404]: http://localhost:5432/packages/local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8
+       local-test_onist_data-client.js?152b1513594d616d28f5d47fab0cf7a968e90ca8 [225]: anonymous
+       test-helpers.js?8a05adca7358d44834eb109725e4c3e091b8e6a7 [205]: anonymous
+       onist_data-client.js?5ce93f72c489f88fb5e8d07bf56566983a9c99e0 [53]: anonymous
+       meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec [977]: anonymous
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3858]: _.extend._maybeInvokeCallback
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3887]: _.extend.dataVisible
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4693]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4692]: _.extend._runAfterUpdateCallbacks
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [4682]: _.extend._livedata_data
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [3719]: onMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2717]: anonymous
+       underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18 [156]: _.each._.forEach
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [2716]: self.socket.onmessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [156]: REventTarget.dispatchEvent
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1141]: SockJS._dispatchMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1199]: SockJS._didMessage
+       ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8 [1346]: that.ws.onmessage
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=8dfcm836fe
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=ikqapmpef7
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=oad03evfd7
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=gyetmxgst5
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=yt3gjg_oa6
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=ym7gh74bbx
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=67a_9t6lb_
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=0vft09izg5
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=owpyai6r7n
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=9du3rvvnpm
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=u_z1qeypce
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=x00297w5_6
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=a7y3zbnam0
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=v72auldnsp
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=3misp0ihfd
+ERROR: Failed to load resource: http://localhost:5432/sockjs/info?cb=z68w6uyu_k
